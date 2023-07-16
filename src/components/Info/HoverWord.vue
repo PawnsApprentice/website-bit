@@ -10,7 +10,7 @@
   >
     <slot></slot>
     <span v-if="hoverEffect" class="icon">
-      <img src="../assets/link.png" alt="Icon" />
+      <img src="../../assets/link.png" alt="Icon" />
     </span>
   </a>
 </template>
@@ -20,7 +20,6 @@ import { ref } from "vue";
 
 const hoverEffect = ref(false);
 
-// Define the 'href' prop for the external link
 const props = {
   href: {
     type: String,
