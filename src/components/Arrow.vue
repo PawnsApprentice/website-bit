@@ -1,6 +1,6 @@
 <template>
-  <a href="#" class="link-deep-purple flex items-center">
-    <span class="mr-2 text-deep-purple font-bold">{{ linkText }}</span>
+  <a href="#" class="link-deep-purple">
+    <span class="mr-2 text-deep-purple font-extrabold">{{ linkText }}</span>
     <svg>
       <defs>
         <marker
