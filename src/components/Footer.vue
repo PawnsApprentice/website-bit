@@ -17,7 +17,7 @@
           <a class="block font-medium mt-3" href="">Blogs</a>
         </div>
       </div>
-      <div class="mr-40">
+      <div class="mr-40 md:mr-0">
         <div class="mt-7 flex items-center">
           <img class="mr-3" src="/src/assets/twitter.png" alt="Twitter" />
           <Arrow link-text="Cotch our latest updates on twitter" />

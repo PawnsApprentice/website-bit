@@ -54,13 +54,14 @@
       />
       Support timeframe: 24 hours
     </p>
-    <div class="mt-15">
+    <div class="mt-15 flex items-center">
       <button
-        class="rounded-full bg-pink mt-10 px-10 py-3.5 text-white font-semibold hover:bg-white hover:text-pink"
+        class="rounded-full bg-pink mt-10 px-5 md:px-10 py-10 md:py-5 text-white font-semibold hover:bg-white hover:text-pink md:flex md:flex-row"
       >
-        Contact Us
+        <span class="md:inline-block">Contact</span>
+        <span class="md:inline-block ml-2">Us</span>
       </button>
-      <Arrow class="ml-7 text-xl" link-text="Learn More" />
+      <Arrow class="ml-5 mt-10 text-xl" link-text="Learn More" />
     </div>
   </div>
 </template>

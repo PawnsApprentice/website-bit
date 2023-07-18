@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-card card py-12 pl-12 rounded-lg">
+  <div class="bg-card card py-12 pl-12 md:pl-5 rounded-lg">
     <img :src="imageSrc" :alt="imageAlt" />
     <p class="mt-7 text-deep-purple text-2xl font-extrabold">{{ title }}</p>
     <p class="mt-7 text-purple font-medium">{{ description }}</p>
@@ -31,6 +31,11 @@ const props = defineProps({
 </script>
 <style scoped>
 .card {
-  width: 32rem;
+  width: 20rem;
+}
+@media (min-width: 1920px) {
+  .card {
+    width: 32rem;
+  }
 }
 </style>

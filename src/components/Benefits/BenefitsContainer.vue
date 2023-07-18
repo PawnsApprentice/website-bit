@@ -5,60 +5,68 @@
         Discover more <span class="gradient-word">AGEDB </span>benefits
       </p>
     </div>
-    <div class="mt-10 flex justify-between">
+    <div class="mt-10 flex flex-wrap justify-between md:justify-start">
       <Capsule
-        marginRight="10rem"
+        class="mr-10 mb-5"
         text="Graph Database Services"
         :imageSrc="share"
         id="m3"
+        marginRight="10rem"
       />
       <Capsule
-        marginRight="10rem"
+        class="mr-10 mb-5"
         text="Recommendation System"
         :imageSrc="filter"
         id="m4"
-      />
-      <Capsule
         marginRight="10rem"
+      />
+    </div>
+    <div class="mt-5 flex flex-wrap justify-between md:justify-start">
+      <Capsule
+        class="mr-10 mb-5"
         text="High Availability"
         :imageSrc="interactive"
         id="m5"
+        marginRight="10rem"
       />
-    </div>
-    <div class="mt-5 flex justify-between">
       <Capsule
-        marginRight="7rem"
+        class="mr-10 mb-5"
         text="Relational Database Services"
         :imageSrc="layers"
         id="m6"
-      />
-      <Capsule
         marginRight="10rem"
+      />
+    </div>
+    <div class="mt-5 flex flex-wrap justify-between md:justify-start">
+      <Capsule
+        class="mr-10 mb-5"
         text="Fraud Detection System"
         :imageSrc="share"
         id="m7"
+        marginRight="10rem"
       />
       <Capsule
-        marginRight="10rem"
+        class="mr-10 mb-5"
         text="Data Integration"
         :imageSrc="present"
         id="m8"
+        marginRight="10rem"
       />
     </div>
-    <div class="mt-5 flex">
+    <div class="mt-5 flex flex-wrap justify-between md:justify-start">
       <Capsule
-        class="mr-64"
-        marginRight="10rem"
+        class="mr-10 mb-5"
         text="Meta Data Expansion"
         :imageSrc="globe"
         id="m9"
+        marginRight="10rem"
       />
       <Capsule
-        class="ml-4"
-        marginRight="10rem"
+        class="mr-10 mb-5"
         text="Data Lineage"
         :imageSrc="disk"
         id="m10"
+        marginRight="10rem"
       />
     </div>
   </div>

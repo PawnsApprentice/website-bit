@@ -14,8 +14,8 @@
         assist you!
       </p>
     </div>
-    <div class="w-5/12">
-      <img class="h-96" src="../assets/map.png" alt="" />
+    <div class="w-5/12 md:w-6/12">
+      <img class="h-96 md:h-3/4 md:w-full" src="../assets/map.png" alt="" />
     </div>
   </div>
 </template>
