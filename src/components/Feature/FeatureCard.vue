@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-card card py-12 pl-12 md:pl-5 rounded-lg">
+  <div class="bg-card card py-12 pl-12 pr-12 md:pl-5 rounded-lg">
     <img :src="imageSrc" :alt="imageAlt" />
     <p class="mt-7 text-deep-purple text-2xl font-extrabold">{{ title }}</p>
     <p class="mt-7 text-purple font-medium">{{ description }}</p>
