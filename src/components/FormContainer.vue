@@ -44,7 +44,7 @@
               required
             />
             <label
-              for="additionalLabel1"
+              for="Organization"
               v-if="
                 selectedInquiries.includes('Business') ||
                 selectedInquiries.includes('Partnership')
@@ -80,7 +80,7 @@
               required
             />
             <label
-              for="Organization"
+              for="JobTitle"
               v-if="
                 selectedInquiries.includes('Business') ||
                 selectedInquiries.includes('Partnership')
@@ -133,7 +133,7 @@
           </p>
           <button
             type="submit"
-            class="bg-deep-purple hover:bg-deep-purple-accent-700 text-white font-bold py-2 px-4 rounded"
+            class="bg-pink hover:bg-white hover:text-pink text-white font-bold py-4 px-28 rounded-full"
           >
             Submit
           </button>

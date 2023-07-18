@@ -1,5 +1,5 @@
 <template>
-  <a href="#" class="link-deep-purple">
+  <a href="#" class="link-deep-purple bg-red">
     <span class="mr-2 text-deep-purple font-extrabold">{{ linkText }}</span>
     <svg>
       <defs>
@@ -41,6 +41,7 @@ const props = defineProps({
   text-decoration: none;
   display: inline-flex;
   align-items: center;
+  width: 23rem;
 }
 
 .link-deep-purple:hover > span {
